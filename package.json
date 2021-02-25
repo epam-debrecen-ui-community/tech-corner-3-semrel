@@ -10,7 +10,8 @@
     "scripts": {
         "clean": "rimraf ./dist",
         "build": "npm run clean && ts-node scripts/build.ts",
-        "start": "npm run build && node ./dist/index.mjs"
+        "start": "npm run build && node ./dist/index.mjs",
+        "release": "semantic-release"
     },
     "dependencies": {
         "fastify": "3.12.0",

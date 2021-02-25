@@ -1,0 +1,23 @@
+name: API - Release New Version
+
+on: push
+
+jobs:
+    release:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout Code
+              uses: actions/checkout@v2
+              with:
+                  fetch-depth: 0
+
+            - name: Install Dependencies
+              uses: actions/setup-node@v1
+              with:
+                  node-version: 14
+            - run: npm install
+
+            - name: Release new version
+              run: npm run release
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
