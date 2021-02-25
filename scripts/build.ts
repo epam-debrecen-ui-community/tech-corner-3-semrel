@@ -7,7 +7,8 @@ build({
     entryPoints: [ SOURCE ],
     external: [
         'fastify',
-        'node-fetch'
+        'node-fetch',
+        'middie'
     ],
     platform: 'neutral',
     bundle: true,
