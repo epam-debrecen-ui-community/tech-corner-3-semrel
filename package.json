@@ -1,6 +1,6 @@
 {
     "name": "@epmdebui/tc3-semrel-api",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Sample repository to demonstrate the semantic-release toolset.",
     "license": "UNLICENSED",
     "repository": {
