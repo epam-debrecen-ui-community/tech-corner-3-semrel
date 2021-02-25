@@ -1,0 +1,9 @@
+# IDE
+.idea/
+*.iml
+
+# Dependencies
+node_modules/
+
+# Distribution package
+dist/
