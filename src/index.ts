@@ -8,7 +8,8 @@ const DEFAULT_PORT: number = 3000;
 const PORT: number = +process.env.PORT || DEFAULT_PORT;
 
 async function buildServer(): Promise<void> {
-    const server = fastify();
+    const server = fastify({ logger: { prettyPrint: true }});
+
     await server.register(middie);
     server.use(apiVersionMiddlewareFactory(version));
 
@@ -24,12 +25,7 @@ async function buildServer(): Promise<void> {
         res.status(200).send(json);
     });
 
-    server.listen(PORT).then(() => {
-        console.info(`Server started successfully on port ${PORT}.`);
-    }).catch(error => {
-        console.error(`Server failed to start with the following error: ${error.message}`);
-        process.exit(1);
-    });
+    await server.listen(PORT);
 }
 
 buildServer();
