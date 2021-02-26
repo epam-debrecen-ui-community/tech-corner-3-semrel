@@ -1,4 +1,8 @@
 module.exports = {
+    branches: [
+        { name: 'master' },
+        { name: 'pre/rc', channel: 'pre/rc', prerelease: 'rc' }
+    ],
     plugins: [
         ['@semantic-release/commit-analyzer', {
             'preset': 'angular',
