@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/epam-debrecen-ui-community/tech-corner-3-semrel/compare/v1.0.1...v1.0.2) (2021-02-26)
+
+
+### Bug Fixes
+
+* **server:** removed unused import ([0719b20](https://github.com/epam-debrecen-ui-community/tech-corner-3-semrel/commit/0719b20bd19dbfe0e95e75b02682a43a9289890e))
+
 ## [1.0.1](https://github.com/epam-debrecen-ui-community/tech-corner-3-semrel/compare/v1.0.0...v1.0.1) (2021-02-26)
 
 # 1.0.0 (2021-02-25)
