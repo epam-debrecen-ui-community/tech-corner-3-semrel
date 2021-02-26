@@ -1,3 +1,10 @@
+# [1.1.0-rc.1](https://github.com/epam-debrecen-ui-community/tech-corner-3-semrel/compare/v1.0.1...v1.1.0-rc.1) (2021-02-26)
+
+
+### Features
+
+* **api:** implementing API endpoint that lists beers ([9887ebd](https://github.com/epam-debrecen-ui-community/tech-corner-3-semrel/commit/9887ebda0e690bb11db2f2f50271e86ac4a82c7f))
+
 ## [1.0.1](https://github.com/epam-debrecen-ui-community/tech-corner-3-semrel/compare/v1.0.0...v1.0.1) (2021-02-26)
 
 # 1.0.0 (2021-02-25)
