@@ -1,5 +1,4 @@
 import { version } from '../package.json';
-import fetch from 'node-fetch';
 import middie from 'middie';
 import { fastify } from 'fastify';
 import { apiVersionMiddlewareFactory } from './middlewares/version.middleware';
